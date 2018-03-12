@@ -8,17 +8,10 @@
 //  ___ORGANIZATIONNAME___ ___YEAR___
 //
 
-// MARK: Imports
-
 import SwiftyVIPER
 import UIKit
 
-// MARK: -
-
-/// Used to initialize the ___VARIABLE_productName___ VIPER module
 final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
-
-	// MARK: - Variables
 
 	private(set) lazy var interactor: ___VARIABLE_productName___Interactor = {
 		___VARIABLE_productName___Interactor()
@@ -36,13 +29,9 @@ final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
 		___VARIABLE_productName___ViewController(presenter: self.presenter)
 	}()
 
-	// MARK: - Module Protocol Variables
-
 	var viewController: UIViewController {
 		return view
 	}
-
-	// MARK: Inits
 
 	init() {
 		presenter.view = view
