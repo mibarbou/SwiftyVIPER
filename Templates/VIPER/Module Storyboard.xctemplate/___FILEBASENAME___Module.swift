@@ -13,16 +13,9 @@
 import SwiftyVIPER
 import UIKit
 
-// MARK: -
-
-/// Used to initialize the ___VARIABLE_productName___ VIPER module
 final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
 
-	// MARK: - Constants
-
 	let storyboard: UIStoryboard = UIStoryboard(name: <#T##String#>, bundle: Bundle.main)
-
-	// MARK: Variables
 
 	private(set) lazy var interactor: ___VARIABLE_productName___Interactor = {
 		___VARIABLE_productName___Interactor()
@@ -42,13 +35,9 @@ final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
 		return vc
 	}()
 
-	// MARK: - Module Protocol Variables
-
 	var viewController: UIViewController {
 		return view
 	}
-
-	// MARK: Inits
 
 	init() {
 		presenter.view = view
