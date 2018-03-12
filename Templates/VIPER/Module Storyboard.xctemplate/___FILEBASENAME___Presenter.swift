@@ -19,7 +19,7 @@ protocol ___VARIABLE_productName___InteractorPresenterProtocol: class {
 	func set(title: String?)
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___ViewPresenterProtocol, ___VARIABLE_productName___InteractorPresenterProtocol {
+final class ___FILEBASENAMEASIDENTIFIER___ {
 
 	let router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol
 	let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol
