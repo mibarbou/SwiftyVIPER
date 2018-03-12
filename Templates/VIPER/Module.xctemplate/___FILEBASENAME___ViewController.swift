@@ -15,7 +15,7 @@ protocol ___VARIABLE_productName___PresenterViewProtocol: class {
 	func set(title: String?)
 }
 
-class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_productName___PresenterViewProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
 	let presenter: ___VARIABLE_productName___ViewPresenterProtocol
 
